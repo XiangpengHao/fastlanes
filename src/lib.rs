@@ -13,12 +13,14 @@ mod bitpacking_cmp;
 mod delta;
 mod ffor;
 mod macros;
+mod select;
 mod transpose;
 
 pub use bitpacking::*;
 pub use bitpacking_cmp::*;
 pub use delta::*;
 pub use ffor::*;
+pub use select::*;
 pub use transpose::*;
 
 pub const FL_ORDER: [usize; 8] = [0, 4, 2, 6, 1, 5, 3, 7];
